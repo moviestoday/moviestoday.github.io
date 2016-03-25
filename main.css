@@ -1,0 +1,65 @@
+@font-face {
+    font-family: 'moviestoday';
+    src: url('fonts/moviestoday.eot'); /* IE9 Compat Modes */
+    src: url('fonts/moviestoday.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('fonts/moviestoday.woff2') format('woff2'), /* Super Modern Browsers */
+    url('fonts/moviestoday.woff') format('woff'), /* Pretty Modern Browsers */
+    url('fonts/moviestoday.ttf')  format('truetype'), /* Safari, Android, iOS */
+    url('fonts/moviestoday.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+html,body{
+    height: 100%;
+}
+
+body{
+    background-color: #fafaf2;
+    overflow-x: hidden;
+    font-family:'moviestoday', serif;
+    color:#777;
+}
+
+#logo{
+    width: 100%;
+}
+
+#logo_twitter{
+    width:30px;
+}
+
+#contact_me{
+    margin-top: 20px;
+}
+
+#end{
+    margin-bottom: 20px;
+}
+
+.cinema-title{
+    color:#e02c2c;
+}
+
+.movie-title{
+
+}
+
+.app-title{
+    line-height: 50px;
+    vertical-align: middle;
+}
+
+.cinema,#app-header{
+    margin-top: 20px;
+}
+
+.movie{
+    margin-top: 10px;
+}
+
+.movie-rating>.imdb{
+    color: #DCB11D;
+}
+
+.loading_icon{
+    height: 40px;
+}
