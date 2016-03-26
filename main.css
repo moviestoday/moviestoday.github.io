@@ -53,7 +53,7 @@ body{
 }
 
 .movie{
-    margin-top: 10px;
+    margin-top: 20px;
 }
 
 .movie-rating>.imdb{
@@ -62,4 +62,8 @@ body{
 
 .loading_icon{
     height: 40px;
+}
+
+.movie-showtime{
+
 }

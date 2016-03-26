@@ -88,8 +88,16 @@
  <!--                                           <div class="col-xs-5 col-md-2 imdb">
                                                 <p>9.2<img src="logo_imdb.png" height="30px" align="bottom" alt=""/></p>
                                             </div>-->
-                                            <div class="col-xs-1 col-md-2">
+                                            <div class="col-xs-2 col-md-1">
                                                 <p><a href="{{movie.trailer}}" target="_blank"><img src="logo_youtube.png" height="30px" align="bottom" alt=""/></a></p>
+                                            </div>
+                                            <div class="col-xs-1 col-md-1" ng-show="movie._3D.toLowerCase()==='true'">
+                                                <p><img src="icon_3d.png" height="35px" align="bottom" alt=""/></p>
+                                            </div>
+                                        </div>
+                                        <div class="row movie-showtimes">
+                                            <div class="col-xs-4 col-md-2 movie-showtime" ng-repeat="showtime in movie.showtimes">
+                                                {{showtime}}
                                             </div>
                                         </div>
                                     </div>
