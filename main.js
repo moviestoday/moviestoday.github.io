@@ -3,7 +3,7 @@
  */
 
 var
-    apiHost = "http://bt-njsmoviestoday.rhcloud.com";
+    apiHost = "https://bt-njsmoviestoday.rhcloud.com";
     moviestoday = angular.module("moviestoday",[])
     .controller("mainCtrl",["$scope","$http",function($scope,$http){
         console.log("We up and running");
